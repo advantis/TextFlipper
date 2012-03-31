@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>a</key>
+        <string>ɐ</string>
+
+        <key>b</key>
+        <string>q</string>
+
+        <key>c</key>
+        <string>ɔ</string>
+
+        <key>d</key>
+        <string>p</string>
+
+        <key>e</key>
+        <string>ǝ</string>
+
+        <key>f</key>
+        <string>ɟ</string>
+
+        <key>g</key>
+        <string>ƃ</string>
+
+        <key>h</key>
+        <string>ɥ</string>
+
+        <key>i</key>
+        <string>ı</string>
+
+        <key>j</key>
+        <string>ɾ</string>
+
+        <key>k</key>
+        <string>ʞ</string>
+
+        <key>m</key>
+        <string>ɯ</string>
+
+        <key>n</key>
+        <string>u</string>
+
+        <key>r</key>
+        <string>ɹ</string>
+
+        <key>t</key>
+        <string>ʇ</string>
+
+        <key>v</key>
+        <string>ʌ</string>
+
+        <key>w</key>
+        <string>ʍ</string>
+
+        <key>y</key>
+        <string>ʎ</string>
+
+        <key>.</key>
+        <string>˙</string>
+
+        <key>[</key>
+        <string>]</string>
+
+        <key>(</key>
+        <string>)</string>
+
+        <key>{</key>
+        <string>}</string>
+
+        <key>?</key>
+        <string>¿</string>
+
+        <key>!</key>
+        <string>¡</string>
+
+        <key>'</key>
+        <string>,</string>
+
+        <key>&lt;</key>
+        <string>&gt;</string>
+
+        <key>_</key>
+        <string>‾</string>
+
+        <key>\r</key>
+        <string>\n</string>
+
+        <key>а</key>
+        <string>ɐ</string>
+
+        <key>б</key>
+        <string>ƍ</string>
+
+        <key>в</key>
+        <string>ʚ</string>
+
+        <key>г</key>
+        <string>ɹ</string>
+
+        <key>д</key>
+        <string>ɓ</string>
+
+        <key>е</key>
+        <string>ǝ</string>
+
+        <key>ё</key>
+        <string>ǝ</string>
+
+        <key>ж</key>
+        <string>ж</string>
+
+        <key>з</key>
+        <string>ε</string>
+
+        <key>и</key>
+        <string>и</string>
+
+        <key>й</key>
+        <string>ņ</string>
+
+        <key>к</key>
+        <string>ʞ</string>
+
+        <key>л</key>
+        <string>v</string>
+
+        <key>м</key>
+        <string>w</string>
+
+        <key>н</key>
+        <string>н</string>
+
+        <key>о</key>
+        <string>о</string>
+
+        <key>п</key>
+        <string>u</string>
+
+        <key>р</key>
+        <string>d</string>
+
+        <key>с</key>
+        <string>ɔ</string>
+
+        <key>т</key>
+        <string>ɯ</string>
+
+        <key>у</key>
+        <string>ʎ</string>
+
+        <key>ф</key>
+        <string>ф</string>
+
+        <key>х</key>
+        <string>х</string>
+
+        <key>ц</key>
+        <string>ǹ</string>
+
+        <key>ч</key>
+        <string>Һ</string>
+
+        <key>ш</key>
+        <string>m</string>
+
+        <key>щ</key>
+        <string>m</string>
+
+        <key>ъ</key>
+        <string>q</string>
+
+        <key>ы</key>
+        <string>ıq</string>
+
+        <key>ь</key>
+        <string>q</string>
+
+        <key>э</key>
+        <string>є</string>
+
+        <key>ю</key>
+        <string>ꙕ</string>
+
+        <key>я</key>
+        <string>ʁ</string>
+
+    </dict>
+</plist>

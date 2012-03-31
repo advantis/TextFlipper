@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A3B854D12E1D7A500EDEC7A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3B854C12E1D7A500EDEC7A /* Cocoa.framework */; };
+		6A3B856012E1DF0700EDEC7A /* TextFlipper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B855F12E1DF0700EDEC7A /* TextFlipper.m */; };
+		6A3B858A12E1FE7900EDEC7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B858912E1FE7900EDEC7A /* main.m */; };
+		6A4FCF161525F3EF00C06459 /* ServicesMenu.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A4FCF181525F3EF00C06459 /* ServicesMenu.strings */; };
+		6A5B6D5B1525DC7B0054F7F6 /* ReplacementTable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B6D5A1525DC7B0054F7F6 /* ReplacementTable.plist */; };
+		6A68C6D1152720BB00607DB8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A68C6D3152720BB00607DB8 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A3B854912E1D7A500EDEC7A /* TextFlipper.service */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFlipper.service; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3B854C12E1D7A500EDEC7A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6A3B855412E1D7A500EDEC7A /* TextFlipper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextFlipper-Info.plist"; sourceTree = "<group>"; };
+		6A3B855812E1D7A500EDEC7A /* TextFlipper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextFlipper-Prefix.pch"; sourceTree = "<group>"; };
+		6A3B855E12E1DF0700EDEC7A /* TextFlipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFlipper.h; sourceTree = "<group>"; };
+		6A3B855F12E1DF0700EDEC7A /* TextFlipper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFlipper.m; sourceTree = "<group>"; };
+		6A3B858912E1FE7900EDEC7A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A4FCF171525F3EF00C06459 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ServicesMenu.strings; sourceTree = "<group>"; };
+		6A4FCF191525F3FB00C06459 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/ServicesMenu.strings; sourceTree = "<group>"; };
+		6A4FCF231525F85800C06459 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A4FCF381525FC5F00C06459 /* InfoPlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoPlist.h; sourceTree = "<group>"; };
+		6A5B6D5A1525DC7B0054F7F6 /* ReplacementTable.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ReplacementTable.plist; sourceTree = "<group>"; };
+		6A68C6D2152720BB00607DB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A68C6D5152720C400607DB8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A68C6D71527211100607DB8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		6A68C6D81527211100607DB8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A3B854612E1D7A500EDEC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3B854D12E1D7A500EDEC7A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A3B853E12E1D7A400EDEC7A = {
+			isa = PBXGroup;
+			children = (
+				6A3B855212E1D7A500EDEC7A /* TextFlipper */,
+				6A3B854B12E1D7A500EDEC7A /* Frameworks */,
+				6A3B854A12E1D7A500EDEC7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A3B854A12E1D7A500EDEC7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A3B854912E1D7A500EDEC7A /* TextFlipper.service */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A3B854B12E1D7A500EDEC7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A3B854C12E1D7A500EDEC7A /* Cocoa.framework */,
+				6A4FCF231525F85800C06459 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A3B855212E1D7A500EDEC7A /* TextFlipper */ = {
+			isa = PBXGroup;
+			children = (
+				6A68C6D6152720FE00607DB8 /* Documentation */,
+				6A3B855312E1D7A500EDEC7A /* Supporting Files */,
+				6A3B858912E1FE7900EDEC7A /* main.m */,
+				6A4FCF381525FC5F00C06459 /* InfoPlist.h */,
+				6A3B855E12E1DF0700EDEC7A /* TextFlipper.h */,
+				6A3B855F12E1DF0700EDEC7A /* TextFlipper.m */,
+				6A5B6D5A1525DC7B0054F7F6 /* ReplacementTable.plist */,
+			);
+			path = TextFlipper;
+			sourceTree = "<group>";
+		};
+		6A3B855312E1D7A500EDEC7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A68C6D3152720BB00607DB8 /* Localizable.strings */,
+				6A4FCF181525F3EF00C06459 /* ServicesMenu.strings */,
+				6A3B855412E1D7A500EDEC7A /* TextFlipper-Info.plist */,
+				6A3B855812E1D7A500EDEC7A /* TextFlipper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A68C6D6152720FE00607DB8 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				6A68C6D71527211100607DB8 /* LICENSE */,
+				6A68C6D81527211100607DB8 /* README.md */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A3B854812E1D7A500EDEC7A /* TextFlipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3B855B12E1D7A500EDEC7A /* Build configuration list for PBXNativeTarget "TextFlipper" */;
+			buildPhases = (
+				6A3B854512E1D7A500EDEC7A /* Sources */,
+				6A3B854612E1D7A500EDEC7A /* Frameworks */,
+				6A3B854712E1D7A500EDEC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFlipper;
+			productName = TextFlipper;
+			productReference = 6A3B854912E1D7A500EDEC7A /* TextFlipper.service */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A3B854012E1D7A400EDEC7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Yalantis;
+			};
+			buildConfigurationList = 6A3B854312E1D7A400EDEC7A /* Build configuration list for PBXProject "TextFlipper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+			);
+			mainGroup = 6A3B853E12E1D7A400EDEC7A;
+			productRefGroup = 6A3B854A12E1D7A500EDEC7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A3B854812E1D7A500EDEC7A /* TextFlipper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A3B854712E1D7A500EDEC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5B6D5B1525DC7B0054F7F6 /* ReplacementTable.plist in Resources */,
+				6A4FCF161525F3EF00C06459 /* ServicesMenu.strings in Resources */,
+				6A68C6D1152720BB00607DB8 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A3B854512E1D7A500EDEC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3B856012E1DF0700EDEC7A /* TextFlipper.m in Sources */,
+				6A3B858A12E1FE7900EDEC7A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A4FCF181525F3EF00C06459 /* ServicesMenu.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A4FCF171525F3EF00C06459 /* en */,
+				6A4FCF191525F3FB00C06459 /* ru */,
+			);
+			name = ServicesMenu.strings;
+			sourceTree = "<group>";
+		};
+		6A68C6D3152720BB00607DB8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A68C6D2152720BB00607DB8 /* en */,
+				6A68C6D5152720C400607DB8 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A3B855912E1D7A500EDEC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6A3B855A12E1D7A500EDEC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6A3B855C12E1D7A500EDEC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFlipper/TextFlipper-Prefix.pch";
+				INFOPLIST_FILE = "TextFlipper/TextFlipper-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(HOME)/Library/Services";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Debug;
+		};
+		6A3B855D12E1D7A500EDEC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFlipper/TextFlipper-Prefix.pch";
+				INFOPLIST_FILE = "TextFlipper/TextFlipper-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
+				INFOPLIST_PREFIX_HEADER = InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(HOME)/Library/Services";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = service;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A3B854312E1D7A400EDEC7A /* Build configuration list for PBXProject "TextFlipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3B855912E1D7A500EDEC7A /* Debug */,
+				6A3B855A12E1D7A500EDEC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A3B855B12E1D7A500EDEC7A /* Build configuration list for PBXNativeTarget "TextFlipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A3B855C12E1D7A500EDEC7A /* Debug */,
+				6A3B855D12E1D7A500EDEC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A3B854012E1D7A400EDEC7A /* Project object */;
+}

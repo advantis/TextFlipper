@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>pro.advantis.osx.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2011 Yuri Kotov. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>TextFlipper</string>
+	<key>LSBackgroundOnly</key>
+	<true/>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSPortName</key>
+			<string>TextFlipper</string>
+			<key>NSMessage</key>
+			<string>flipText</string>
+			<key>NSTimeout</key>
+			<string>TIMEOUT_VALUE</string>
+			<key>NSServiceDescription</key>
+			<string>Service for funny text flipping</string>
+			<key>NSSendTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+			<key>NSReturnTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>⟲ Flip Text</string>
+			</dict>
+			<key>NSRequiredContext</key>
+			<dict>
+				<key>NSTextScript</key>
+				<array>
+					<string>Latn</string>
+					<string>Cyrl</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
